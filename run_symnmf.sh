@@ -1,4 +1,7 @@
 #!/bin/bash
+make
+python3 setup.py build_ext --inplace
+
 
 python3 symnmf.py 4 sym spheres.txt > sym_spheres_res.txt
 python3 symnmf.py 4 ddg spheres.txt > ddg_spheres_res.txt
