@@ -6,3 +6,8 @@ to run all write in terminal:
 to remove files easily:
 1.  chmod +x clear.sh
 2. ./clear.sh
+
+
+
+
+tomeroron@mail.tau.ac.il
