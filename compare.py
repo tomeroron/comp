@@ -23,4 +23,4 @@ if __name__ == "__main__":
             print(f"{target} {goal}: {compare_text_files(path1, path2)}")
             if(goal!="symnmf"):
                 path2 = f"{goal}c_{target}_res.txt"
-                print(f"{target} {goal}: {compare_text_files(path1, path2)}")
+                print(f"{target} {goal} in C: {compare_text_files(path1, path2)}")
