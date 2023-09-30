@@ -18,16 +18,16 @@ if __name__ == "__main__":
     # Tests: symnmf.py and symnmf.c
     for target in["iris", "spheres","drive1", "drive2"]:
         for goal in ["sym", "norm", "ddg", "symnmf"]:
-            path1 = f"expected-outputs/{goal}_{target}.txt"
-            path2 = f"res/{goal}_{target}_res.txt"
+            path1 = os.path.join("expected-outputs", f"{goal}_{target}.txt")
+            path2 = os.path.join("res", f"{goal}_{target}_res.txt")
             print(f"{target} {goal}: {compare_text_files(path1, path2)}")
             if(goal!="symnmf"):
-                path2 = f"res/{goal}c_{target}_res.txt"
+                path2 = os.path.join("res", f"{goal}c_{target}_res.txt")
                 print(f"{target} {goal}c: {compare_text_files(path1, path2)}")
 
     # Tests: analysis.py
-    expected_output_directory_in_str = f"expected-outputs/analysis"
-    res_directory_in_str = f"res/analysis"
+    expected_output_directory_in_str = os.path.join("expected-outputs", "analysis")
+    res_directory_in_str = os.path.join("res", "analysis")
 
     res_files_directory = os.fsencode(res_directory_in_str)
 
