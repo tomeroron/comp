@@ -48,5 +48,8 @@ python3 analysis.py 2 inputs/analysis/input_10.txt > res/analysis/input_10.txt
 python3 analysis.py 6 inputs/analysis/input_11.txt > res/analysis/input_11.txt
 python3 analysis.py 5 inputs/analysis/input_12.txt > res/analysis/input_12.txt
 python3 analysis.py 8 inputs/analysis/input_13.txt > res/analysis/input_13.txt
+python3 analysis.py 3 inputs/analysis/iris.txt > res/analysis/iris.txt
+python3 analysis.py 4 inputs/analysis/spheres.txt > res/analysis/spheres.txt
+
 
 python3 compare.py
