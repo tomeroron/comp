@@ -36,4 +36,4 @@ if __name__ == "__main__":
         res_file_path = os.path.join(res_directory_in_str, res_filename)
         expected_outcome_file_path = os.path.join(expected_output_directory_in_str, res_filename)
         if res_filename.endswith(".txt"):
-            print(f"{res_filename}: {compare_text_files(res_file_path, expected_outcome_file_path)}")
+            print(f"{res_filename} analysis: {compare_text_files(res_file_path, expected_outcome_file_path)}")

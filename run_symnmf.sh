@@ -35,18 +35,18 @@ python3 symnmf.py 3 symnmf inputs/drive2.txt > res/symnmf_drive2_res.txt
 ./symnmf norm inputs/drive2.txt > res/normc_drive2_res.txt
 
 
-python3 ../analysis.py 3 inputs/analysis/input_01.txt > res/analysis/input_01.txt
-python3 ../analysis.py 3 inputs/analysis/input_02.txt > res/analysis/input_02.txt
-python3 ../analysis.py 3 inputs/analysis/input_03.txt > res/analysis/input_03.txt
-python3 ../analysis.py 6 inputs/analysis/input_04.txt > res/analysis/input_04.txt
-python3 ../analysis.py 5 inputs/analysis/input_05.txt > res/analysis/input_05.txt
-python3 ../analysis.py 5 inputs/analysis/input_06.txt > res/analysis/input_06.txt
-python3 ../analysis.py 4 inputs/analysis/input_07.txt > res/analysis/input_07.txt
-python3 ../analysis.py 8 inputs/analysis/input_08.txt > res/analysis/input_08.txt
-python3 ../analysis.py 9 inputs/analysis/input_09.txt > res/analysis/input_09.txt
-python3 ../analysis.py 2 inputs/analysis/input_10.txt > res/analysis/input_10.txt
-python3 ../analysis.py 6 inputs/analysis/input_11.txt > res/analysis/input_11.txt
-python3 ../analysis.py 5 inputs/analysis/input_12.txt > res/analysis/input_12.txt
-python3 ../analysis.py 8 inputs/analysis/input_13.txt > res/analysis/input_13.txt
+python3 analysis.py 3 inputs/analysis/input_01.txt > res/analysis/input_01.txt
+python3 analysis.py 3 inputs/analysis/input_02.txt > res/analysis/input_02.txt
+python3 analysis.py 3 inputs/analysis/input_03.txt > res/analysis/input_03.txt
+python3 analysis.py 6 inputs/analysis/input_04.txt > res/analysis/input_04.txt
+python3 analysis.py 5 inputs/analysis/input_05.txt > res/analysis/input_05.txt
+python3 analysis.py 5 inputs/analysis/input_06.txt > res/analysis/input_06.txt
+python3 analysis.py 4 inputs/analysis/input_07.txt > res/analysis/input_07.txt
+python3 analysis.py 8 inputs/analysis/input_08.txt > res/analysis/input_08.txt
+python3 analysis.py 9 inputs/analysis/input_09.txt > res/analysis/input_09.txt
+python3 analysis.py 2 inputs/analysis/input_10.txt > res/analysis/input_10.txt
+python3 analysis.py 6 inputs/analysis/input_11.txt > res/analysis/input_11.txt
+python3 analysis.py 5 inputs/analysis/input_12.txt > res/analysis/input_12.txt
+python3 analysis.py 8 inputs/analysis/input_13.txt > res/analysis/input_13.txt
 
 python3 compare.py
