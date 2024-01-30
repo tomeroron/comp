@@ -13,4 +13,4 @@ to remove files easily:
 
 
 
-tomeroron@mail.tau.ac.il
+note: we don't check for memory leak
